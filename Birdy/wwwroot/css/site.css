@@ -1,1 +1,28 @@
-﻿
+﻿body {
+
+}
+
+input[type=submit] {
+    width: auto;
+}
+
+input, textarea {
+    font-size: 18px;
+    width: 200px;
+}
+
+label {
+    font-size: 16px;
+}
+
+menu li {
+    display: inline;
+}
+
+menu li::after {
+    content: ' |';
+}
+
+menu li:last-of-type::after {
+    content: '';
+}
